@@ -18,6 +18,8 @@
 		142DACA7174B938000B0A2F6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 142DACA6174B938000B0A2F6 /* Default@2x.png */; };
 		142DACA9174B938000B0A2F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 142DACA8174B938000B0A2F6 /* Default-568h@2x.png */; };
 		142DACAC174B938000B0A2F6 /* CEKRemoteLogger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 142DACAA174B938000B0A2F6 /* CEKRemoteLogger.xcdatamodeld */; };
+		142DACB4174B96C400B0A2F6 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 142DACB3174B96C400B0A2F6 /* Server.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		142DACB7174B96E900B0A2F6 /* CEKRemoteLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 142DACB6174B96E900B0A2F6 /* CEKRemoteLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,10 @@
 		142DACA6174B938000B0A2F6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		142DACA8174B938000B0A2F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		142DACAB174B938000B0A2F6 /* CEKRemoteLogger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CEKRemoteLogger.xcdatamodel; sourceTree = "<group>"; };
+		142DACB2174B96C400B0A2F6 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		142DACB3174B96C400B0A2F6 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		142DACB5174B96E900B0A2F6 /* CEKRemoteLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEKRemoteLogger.h; sourceTree = "<group>"; };
+		142DACB6174B96E900B0A2F6 /* CEKRemoteLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEKRemoteLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +90,14 @@
 		142DAC98174B938000B0A2F6 /* CEKRemoteLogger */ = {
 			isa = PBXGroup;
 			children = (
+				142DACB2174B96C400B0A2F6 /* Server.h */,
+				142DACB3174B96C400B0A2F6 /* Server.m */,
 				142DACA1174B938000B0A2F6 /* AppDelegate.h */,
 				142DACA2174B938000B0A2F6 /* AppDelegate.m */,
 				142DACAA174B938000B0A2F6 /* CEKRemoteLogger.xcdatamodeld */,
 				142DAC99174B938000B0A2F6 /* Supporting Files */,
+				142DACB5174B96E900B0A2F6 /* CEKRemoteLogger.h */,
+				142DACB6174B96E900B0A2F6 /* CEKRemoteLogger.m */,
 			);
 			path = CEKRemoteLogger;
 			sourceTree = "<group>";
@@ -174,6 +184,8 @@
 				142DAC9F174B938000B0A2F6 /* main.m in Sources */,
 				142DACA3174B938000B0A2F6 /* AppDelegate.m in Sources */,
 				142DACAC174B938000B0A2F6 /* CEKRemoteLogger.xcdatamodeld in Sources */,
+				142DACB4174B96C400B0A2F6 /* Server.m in Sources */,
+				142DACB7174B96E900B0A2F6 /* CEKRemoteLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
